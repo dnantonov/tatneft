@@ -23,9 +23,13 @@
 ### Task 3
 Третье задание находится в директории task3. Для запуска программы нужно ввести следующие команды:
 
-`python task3/manage.py makemigrations`
-
 `python task3/manage.py migrate`
+
+Загружаем тестовые данные из JSON:
+
+`python task3/manage.py loaddata db.json`
+
+И запускаем сервер:
 
 `python task3/manage.py runserver`
 
